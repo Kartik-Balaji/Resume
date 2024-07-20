@@ -1,0 +1,263 @@
+.Top_Container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    height: 50px;
+    padding: 20px;
+    border: black;
+    border-radius: 10px;
+    margin-top: 0px;
+    
+}
+.bcg{
+    background-color: rgb(0, 0, 0);
+    background: linear-gradient(to right, black,);
+    scroll-behavior: smooth;
+}
+#Arrow{
+    margin-top: 20px;
+}
+.Side_Top{
+    flex-direction: row;
+    display: flex;
+    gap: 15px;
+    text-decoration: none;
+    font-size: xx-large;
+    color: rgb(62, 177, 81);
+    font-weight: 500;  
+    align-items: center;  
+
+}
+.Top_Experience:hover{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 100px;
+}
+.Top_Home:hover{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 100px;
+    overflow: hidden;
+}
+.Top_Skills:hover{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 100px;
+}
+.Top_Contact:hover{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 1000px;
+}
+.Top_Name{
+    align-self: flex-start;
+    font-size: xxx-large;
+    font-weight: bold;
+    color:rgb(62, 177, 81) ;
+}
+.Top_Home{
+    /* border: 2px solid white; */
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+    color: inherit;
+    justify-content: center;
+    padding:20px;
+    transition-duration: 0.5s;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Top_Skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    text-decoration: none;
+    color: inherit;
+    padding:20px;
+    transition-duration: 0.5s;
+}
+.Top_Experience{
+    margin-top: 20px;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding:20px;
+    transition-duration: 0.5s;
+    padding-right: 5px;
+    
+}
+.Top_Contact{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+    padding:20px;
+    padding-right: 25px;
+    transition-duration: 0.5s;
+
+}
+
+/* To make boxes rotate */
+/* .Carousel_Skills{
+    perspective: 100000px;
+}
+.Carousel_Box{
+    display: flex;
+    position:absolute;
+    justify-content: space-evenly;
+    color: azure;
+    margin-left: 50%;
+    align-items: center;
+    padding-top: 50%;
+    transform-style: preserve-3d;
+    transition: transform 2s;
+    animation: rotate 20s infinite linear;
+}
+.Carousel_Item{
+    position:absolute;
+    margin-left: 50%;
+    transform-style: preserve-3d;
+}
+ */ 
+
+/* @keyframes rotate{
+    from{
+        transform: rotateY(0);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+} */
+
+/* .Carousel_Box .Carousel_Item:nth-child(1){ transform: rotateY(0deg) translateZ(150px);}
+.Carousel_Box .Carousel_Item:nth-child(2) { transform: rotateY(45deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(3) { transform: rotateY(90deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(4) { transform: rotateY(135deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(5) { transform: rotateY(180deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(6) { transform: rotateY(225deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(7) { transform: rotateY(270deg) translateZ(150px); }
+.Carousel_Box .Carousel_Item:nth-child(8) { transform: rotateY(315deg) translateZ(150px); } */
+
+
+
+
+.Skills_Box{
+    padding-top:50%;
+}
+
+.Skill_Page_1{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-evenly;
+    gap:10px;
+
+}
+.Skill_Page_2{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    gap: 10px;
+}
+.Skill{
+    color: white;
+    display: grid;
+    /* border-radius: 1005px; */
+    align-items: center;
+    text-align: center;
+    
+    font-size: 16px;
+    padding: 100px;
+
+}
+.Skill2{
+    display: grid;
+    align-items: center;
+    text-align: center;
+    background-color: #b5c6b6;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 16px; 
+}
+#C{
+    background-image: url(C_Skill.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition-duration: 0.2s;
+}
+#C1{
+    background-image: url(C++_Skill.png);
+    background-size:contain;
+    background-size: 85%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Java{
+    background-image: url(Java_Skill.png);
+    background-size:contain;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#Python{
+    background-image: url(python_Skill.png);
+    background-size:contain;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+#C:hover{
+    background-color: #77c67e;
+    transition-duration: 0.5s;
+    background-image: none;
+    padding:12%;
+    border-radius: 60px;
+}
+#C1:hover{
+    background-color: #77c67e;
+    transition-duration: 0.5s;
+    background-image: none;
+    padding:12%;
+    border-radius: 60px;
+}
+#Java:hover{
+    background-color: #77c67e;
+    transition-duration: 0.5s;
+    background-image: none;
+    padding:12%;
+    border-radius: 60px;
+}
+#Python:hover{
+    background-color: #77c67e;
+    transition-duration: 0.5s;
+    background-image: none;
+    padding:12%;
+    border-radius: 60px;
+}
+
+
+.Ending{
+    color: aqua;
+    margin-top: 100cap;
+    text-align: center;
+    font-size: large;
+}
+
+
+
+
+
+
+
